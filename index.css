@@ -25,6 +25,7 @@ body {
 
 #nav-bar .nav-items a, #nav-bar .nav-items img, #nav-bar .nav-items button {
     font-weight: bold;
+    color: black;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
