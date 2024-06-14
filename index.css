@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between; /* Distributes space between items */
     align-items: center; /* Align items */
-    background-color: white; /* Set background color to white */
+    background-color: #FAEEE7; /* Set background color */
     padding: 10px; /* Add some padding if needed */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
 }
@@ -44,30 +44,65 @@ body {
     height: auto;
     cursor: pointer;
 }
+/*footer*/
 #footer{
-    background-color: white;
+    background-color: #FAEEE7;
 }
+/*style for the first section in footer*/
 .section-column{
     display: flex;
-    padding: 10px;
     text-decoration: none;
 }
+/*style for column2*/
 .column2{
+    margin-top: 70px;
+    margin-left: 60px;
     display: flex;
     flex-direction: column;
     padding-right: 20px;
     padding-left: 20px;
     font-weight: bold;
-    color: inherit;
-    text-decoration: none;
+    font-size: 25px;
+    line-height: 2;
+    color: black;
 }
-
+/* Remove underline and blue text for links in .column2 */
+.column2 a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent element */
+}
+/*style for third column*/
+.column3{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    line-height: 2;
+    margin-top: 70px;
+}
+/* Remove underline and blue text for links in .column2 */
+.column3 a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent element */
+}
+/*style fror column4*/
+.column4{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 450px;
+    margin-top: 40px;
+}
+/*icon in footer*/
 .toronto-icon{
     width: 150px;
     height: auto;
+    margin-left: 50px;
+    margin-top: 80px;
 }
+/*copyright section in footer*/
 .section-normal{
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
