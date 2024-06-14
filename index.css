@@ -44,3 +44,16 @@ body {
     height: auto;
     cursor: pointer;
 }
+#footer{
+    background-color: white;
+}
+.section-column{
+    display: flex;
+}
+.toronto-icon{
+    width: 150px;
+    height: auto;
+}
+.section-normal{
+    /* No special styles needed, normal flow */
+}
